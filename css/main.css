@@ -1,0 +1,83 @@
+h1 {
+  font-family: "Unica One", sans-serif;
+  font-weight: lighter;
+  color: #fff;
+  max-width: 175px;
+  top: 25%;
+  left: 5%;
+  z-index: 5;
+  animation: fade 3s linear;
+}
+
+#rainbow-violet {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1917.692px;
+  stroke-dashoffset: 1917.692px;
+}
+
+#rainbow-indigo {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1812.502px;
+  stroke-dashoffset: 1812.502;
+}
+
+#rainbow-blue {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1705.479px;
+  stroke-dashoffset: 1705.479px;
+}
+
+#rainbow-green {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1596.043px;
+  stroke-dashoffset: 1596.043px;
+}
+
+#rainbow-yellow {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1483.352px;
+  stroke-dashoffset: 1483.352px;
+}
+
+#rainbow-orange {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1366.26px;
+  stroke-dashoffset: 1366.26px;
+}
+
+#rainbow-red {
+  animation: offset 3500ms linear forwards;
+  stroke-dasharray: 1243.044px;
+  stroke-dashoffset: 1243.044;
+}
+
+#narwhal-eye {
+  opacity: 1;
+  animation: fade 3s linear forwards;
+}
+
+#narwhal-body {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1981.415px;
+  stroke-dashoffset: 1981.415px;
+}
+
+@keyframes fade {
+
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+}
+
+@keyframes offset {
+
+  to {
+    stroke-dashoffset: 0;
+  }
+
+}
